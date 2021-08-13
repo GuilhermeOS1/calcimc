@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>...</title>
+	<link rel="shortcut icon" href="Calculator.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<form action="/pagina" method="POST" onsubmit="return calcular()">
+		<label for="peso">Digite seu peso</label><br>
+		<input type="text" name="peso" id="peso" placeholder="Exemplo 65"><br>
+		<small id="emailHelp" class="form-text text-muted">Apenas numeros</small>
+		<br><br>
+		<label for="altura">Digite sua altura</label><br>
+		<input type="text" name="altura" id="altura" placeholder="Exemplo 1.69"><br>
+		<small id="emailHelp" class="form-text text-muted">Apenas numeros</small>
+		<br><br>
+		<input type="submit" value="Calcular" class="btn btn-outline-success btn">
+		<input type="reset" value="limpar" class="btn btn-outline-secondary btn">
+	</form>
+
+	<h3 id="resultado"></h3>
+
+</body>
+</html>
